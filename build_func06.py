@@ -8,7 +8,7 @@ def main(a):
     Returns:
         float: The result to 2 decimal places
     """
-    return (a)
+    return (a,2)
 
-print(main(round(3.456,2)))
+print(main(round(3.456)))
 
